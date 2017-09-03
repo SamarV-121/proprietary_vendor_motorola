@@ -23,4 +23,8 @@ service ril-daemon-mtk /vendor/bin/mtkrild
     oneshot
 
 on property:ril.mtk=1
+<<<<<<< HEAD
     start ril-daemon-mtk
+=======
+    start ril-daemon-mtk
+>>>>>>> 2d7ec80... Update RIL blobs
